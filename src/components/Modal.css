@@ -1,0 +1,42 @@
+.btn__cancel {
+    background-color: transparent;
+    color: #764509;
+  }
+  
+  .btn__cancel:hover {
+    background-color: #ebebeb;
+  }
+  
+  .medal {
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+    left: 50%;
+    width: 460px;
+    position: fixed;
+    top: 200px;
+    transform: translateX(-50%);
+  }
+  
+  .modal__title {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .modal__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .backdrop {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+  }
+  
